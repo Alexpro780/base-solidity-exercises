@@ -27,34 +27,3 @@ The `contracts/` folder contains small, focused examples:
 12. `HaikuNFT.sol` – simple ERC‑721 example for “Haiku” NFTs.
 
 All contracts are written in Solidity ^0.8.x so they include automatic overflow checks and are easy to experiment with in Remix or Foundry.
-
-## How to Use (very simple)
-
-You do **not** need to be a professional developer to use this repo.
-
-### Option 1 — Just keep it on GitHub
-
-1. Upload this folder to a new public repository called, for example, `base-solidity-exercises`.
-2. Make sure the repository is **Public**.
-3. Confirm that your GitHub account shows your email publicly and matches the email used for your Git commits.
-4. That’s it — analytics tools (like Electric Capital) can already see this repo as part of your developer activity.
-
-### Option 2 — Try deploying a contract on Base Sepolia
-
-If you want to go a bit further:
-
-1. Open <https://remix.ethereum.org> in your browser.
-2. Create a new file and copy‑paste one of the contracts from `contracts/`.
-3. In your wallet (MetaMask, Rabby, etc.) add **Base Sepolia** and get some test ETH from a faucet.
-4. In Remix:
-   - Select the Solidity compiler (0.8.x).
-   - Compile the contract.
-   - Switch to the **Deploy & Run** tab, choose “Injected Provider – MetaMask” and make sure the network is **Base Sepolia**.
-   - Press **Deploy** and confirm the transaction in your wallet.
-5. Copy the deployed contract address and, if you like, verify it on Basescan.
-
-Even один‑два деплоя уже создают для вас ончейн‑след как для билдера сети Base.
-
-## License
-
-This project is released under the MIT License – see [`LICENSE`](./LICENSE) for details.
